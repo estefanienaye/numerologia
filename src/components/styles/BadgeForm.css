@@ -1,0 +1,39 @@
+.fecha_ingresa{
+    justify-content: center;
+    display: flex;
+    padding: 1rem 0;
+    background: #D99729;
+}
+
+.form-group{
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    margin: 1rem; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-control{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    text-align: center;
+}
+
+.container{
+    background-color: #a15d98;
+    font-family: serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+  

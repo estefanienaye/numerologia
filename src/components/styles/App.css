@@ -1,0 +1,76 @@
+.App {
+  background-color: #a15d98;
+}
+
+body{
+  background-color: #a15d98;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header { 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 4vmin);
+}
+
+.App-link {
+  color: #ECC470;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-body {
+  text-align: center;
+  color : #D99729;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid-calculo{
+  display: grid;
+  justify-content: center;
+  min-height: 00vh;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: minmax(70px, auto) repeat(2, 90px);
+}
+
+.grid-calculo > p{
+  font-size: 2rem;
+  color: #DAA520;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.iniciobtn {
+  color: white;
+  font-size: calc(15px + 2vmin);
+  background: #DAA520;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: 50px;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+}

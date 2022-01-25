@@ -1,0 +1,32 @@
+.container {
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.Navbar {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #a15d98;
+}
+
+.Navbar__brand {
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navbar__brand-logo {
+  margin-right: 0.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

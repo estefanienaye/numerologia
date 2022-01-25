@@ -1,0 +1,72 @@
+.Badge {
+    background: #a15d98;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+  }
+  
+  .Badge__header {
+    padding: 0.5rem 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .frmGeneral{
+    justify-content: center;
+    display: flex;
+  }
+
+  .badge_aspectos {
+    margin: 3em;
+  }
+
+  .form-numero{
+    color: white;
+    text-align: center;
+    background-color: #D99729;;
+}
+
+  .Badge__section-dia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+  }
+  
+  .Badge__section-anio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    background: #D99729;
+  }
+
+  .Badge__section-resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .App-logo {
+    max-width: 15%;
+    height: 15%;
+    position: center;
+  }
+
+  .navheader{
+      width: 100%;
+      padding: 0.5rem 0;
+      background-color: #a15d98;
+  
+  }
+
+  .logoName{
+    position: absolute;
+    align-items: center;
+    top: 10%;
+    right: 40%;
+  }
